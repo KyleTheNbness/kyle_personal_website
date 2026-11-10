@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>编辑主页 · Kyle Yu</title>
+<link rel="stylesheet" href="../style.css">
+<style>
+main{max-width:760px;margin:auto;padding:24px}h1{font-size:2.4rem;margin:20px 0}label{display:block;margin:12px 0}
+input,textarea,select,button{font:inherit;color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:7px}
+input,textarea,select{display:block;width:100%;margin-top:4px}textarea{resize:vertical}
+button{cursor:pointer;margin:4px 6px 4px 0}button:disabled{opacity:.5;cursor:default}
+fieldset{margin:16px 0;padding:14px;border:1px solid var(--line);min-width:0}
+#notice{color:var(--quiet)}#actions{position:sticky;bottom:0;background:var(--paper);border-top:1px solid var(--line);padding:8px 0}
+</style>
+<main><a href="../">查看主页</a><h1>编辑主页</h1>
+<p>选择模块后直接修改。保存时选择网站目录里的 index.html，或下载后替换原文件。</p>
+<label>模块<select id="modules"></select></label>
+<div id="fields"></div>
+<div id="actions"><button id="save" disabled>保存到首页文件</button><button id="download" disabled>下载 index.html</button><span id="notice" role="status"></span></div>
+</main><script type="module" src="editor.js"></script></html>
