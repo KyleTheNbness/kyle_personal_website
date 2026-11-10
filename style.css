@@ -216,3 +216,4 @@ h2,h3{font-weight:400}
 h3{font-size:1.25rem;letter-spacing:-.01em}
 .tagline,#about .lead{font-weight:350}
 body{font-feature-settings:"ss01","cv11"}
+.glance span{font:italic 400 1rem/1.2 var(--serif);font-variation-settings:"SOFT" 100,"opsz" 24;letter-spacing:0;text-transform:none;margin-bottom:4px}
